@@ -34,7 +34,7 @@ namespace ProTechTiveGear.Controllers
 					return RedirectToAction("Index", "AuraStore");
 				}
 				else
-					ModelState.AddModelError("", "The user login or password  is incorrect..");
+					ModelState.AddModelError("", "Sai tài khoản hoặc mật khẩu");
 			//}
 			return View();
 			

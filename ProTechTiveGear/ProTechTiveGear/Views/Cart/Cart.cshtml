@@ -48,11 +48,11 @@
 			<table class="table">
 				<thead>
 					<tr>
-						<th scope="col" style="background-color:#49e4fa;color:white">Preview</th>
-						<th scope="col" style="background-color:#49e4fa;color:white">Product</th>
-						<th scope="col" style="background-color:#49e4fa;color:white">Price</th>
-						<th scope="col" style="background-color:#49e4fa;color:white">Quantity</th>
-						<th scope="col" style="background-color:#49e4fa;color:white">Total</th>
+						<th scope="col" style="background-color:#49e4fa;color:white">Loại</th>
+						<th scope="col" style="background-color:#49e4fa;color:white">Tên sản phẩm</th>
+						<th scope="col" style="background-color:#49e4fa;color:white">Giá</th>
+						<th scope="col" style="background-color:#49e4fa;color:white">Số lượng</th>
+						<th scope="col" style="background-color:#49e4fa;color:white">Tổng tiền</th>
 						<th scope="col" style="background-color:#49e4fa"></th>
 						<th scope="col" style="background-color:#49e4fa"></th>
 						<th scope="col" style="background-color:#49e4fa"></th>
@@ -89,7 +89,7 @@
 
 
 							<td>@String.Format("{0:0,0}", item.TotalPrices)</td>
-							<td><a href="@Url.Action("Detail", "AuraStore", new { id = item.IdItem })">Detail</a></td>
+							<td><a href="@Url.Action("Detail", "AuraStore", new { id = item.IdItem })">Chi tiết sản phẩm</a></td>
 							<td>@Html.ActionLink("Delete", "DeLeteCart", new { @id = item.IdItem })</td>
 
 							@*<td><input type="submit" value="Update" /></td>*@
@@ -104,7 +104,7 @@
 						<td>
 							<form class="form-inline">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Coupon code">
+									<input type="text" class="form-control" placeholder="Mã giảm giá">
 								</div>
 								
 							</form>
@@ -118,7 +118,7 @@
 						<td>
 							<form class="form-inline">
 							
-								<a class="pest_btn" href="@Url.Action("DeleteAll","Cart")"><span style="color:red">Delete all</span></a>
+								<a class="pest_btn" href="@Url.Action("DeleteAll","Cart")"><span style="color:red">Xoá tất cả</span></a>
 							</form>
 						</td>
 							

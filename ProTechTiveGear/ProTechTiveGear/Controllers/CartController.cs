@@ -228,7 +228,7 @@ namespace ProTechTiveGear.Controllers
 			{
 				return RedirectToAction("Index", "AuraStore");
 			}
-			ModelState.AddModelError("", "Error cannot change Infomation..");
+			ModelState.AddModelError("", "Lỗi.. không thể thay thế thông tin");
 			return View(new AccountClientEntity(ac));
 		}
 	}

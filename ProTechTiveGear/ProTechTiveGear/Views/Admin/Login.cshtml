@@ -20,18 +20,18 @@
 		</span>
 
 		<span class="login100-form-title p-b-34 p-t-27">
-			Log in
+			Đăng nhập admin
 		</span>
 
 		<div class="wrap-input100 validate-input" data-validate="Enter username">
 			@*@Html.TextBox("userName", null, new { @class = "form-control", @placeholder = "UserName", required = "required" })*@
-			<input class="input100" type="text" name="userName" id="userName" placeholder="Username">
+			<input class="input100" type="text" name="userName" id="userName" placeholder="Tên đăng nhập admin">
 			<span class="focus-input100" data-placeholder="&#xf207;"></span>
 		</div>
 
 		<div class="wrap-input100 validate-input" data-validate="Enter password">
 			@*@Html.Password("passWord", null, new { @class = "form-control", @placeholder = "Password", required = "required" })*@
-			<input class="input100" type="password" name="passWord" id="=passWord" placeholder="Password">
+			<input class="input100" type="password" name="passWord" id="=passWord" placeholder="Mật khẩu">
 
 			<span class="focus-input100" data-placeholder="&#xf191;"></span>
 			<span style="color:red">@Html.ValidationSummary(true)</span>
@@ -40,19 +40,19 @@
 		<div class="contact100-form-checkbox">
 			<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
 			<label class="label-checkbox100" for="ckb1">
-				Remember me
+				Nhớ mật khẩu admin
 			</label>
 		</div>
 
 		<div class="container-login100-form-btn">
 			<button class="login100-form-btn">
-				Login
+				Đăng nhập
 			</button>
 		</div>
 
 		<div class="text-center p-t-90">
 			<a class="txt1" href="#">
-				Forgot Password?
+				Quên mật khẩu
 			</a>
 		</div>
 	</form>
