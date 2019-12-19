@@ -53,7 +53,7 @@
 				<div class="sidebar-brand-icon rotate-n-15">
 					<i class="fas fa-laugh-wink"></i>
 				</div>
-				<div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+				<div class="sidebar-brand-text mx-3">Xin chào Admin <sup></sup></div>
 			</a>
 			<!-- Divider -->
 			<hr class="sidebar-divider my-0">
@@ -61,26 +61,26 @@
 			<li class="nav-item active">
 				<a class="nav-link" href="@Url.Action("Index","Admin")">
 					<i class="fas fa-fw fa-tachometer-alt"></i>
-					<span>Dashboard</span>
+					<span>Doanh thu</span>
 				</a>
 			</li>
 			<!-- Divider -->
 			<hr class="sidebar-divider">
 			<!-- Heading -->
 			<div class="sidebar-heading">
-				Category
+				Loại
 			</div>
 			<li class="nav-item">
 				<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#da" aria-expanded="true" aria-controls="da">
 					<i class="fas fa-fw fa-cube"></i>
-					<span>Product</span>
+					<span>Sản phẩm</span>
 				</a>
 				<div id="da" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
 					<div class="bg-white py-2 collapse-inner rounded">
 						<h6 class="collapse-header">Custom Product:</h6>
-						<a class="collapse-item" href="@Url.Action("Index","Items")">All Product</a>
-						<a class="collapse-item" href="@Url.Action("Create", "Items")">New Product</a>
-						<a class="collapse-item" href="@Url.Action("Itemunactive", "Items")">Product UnActive</a>
+						<a class="collapse-item" href="@Url.Action("Index","Items")">Tất cả sản phẩm</a>
+						<a class="collapse-item" href="@Url.Action("Create", "Items")">Sản phẩm mới</a>
+						<a class="collapse-item" href="@Url.Action("Itemunactive", "Items")">Sản phẩm thử nghiệm</a>
 						<!----------------new Product---------------------------------------------------------------------------------------------------------------------------------------------->
 					</div>
 				</div>
@@ -90,14 +90,14 @@
 				<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
 					<i class="fas fa-fw fa-briefcase"></i>
 					<span>
-						Product Type
+						Loại sản phẩm
 					</span>
 				</a>
 				<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
 					<div class="bg-white py-2 collapse-inner rounded">
 						<h6 class="collapse-header">Custom Product Type:</h6>
-						<a class="collapse-item" href="@Url.Action("Index","ItemTypes")">All Product Type</a>
-						<a class="collapse-item" href="cards.html">New Product Type</a>
+						<a class="collapse-item" href="@Url.Action("Index","ItemTypes")">Tất cả loại sản phẩm</a>
+						<a class="collapse-item" href="cards.html">Loại sản phẩm mới</a>
 					</div>
 				</div>
 			</li>
@@ -111,8 +111,8 @@
 				</a>
 				<div id="rr" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
 					<div class="bg-white py-2 collapse-inner rounded">
-						<h6 class="collapse-header">Custom Banner:</h6>
-						<a class="collapse-item" href="@Url.Action("Index","Banners")">Edit Banner</a>
+						<h6 class="collapse-header">Xoá & sửa Banner:</h6>
+						<a class="collapse-item" href="@Url.Action("Index","Banners")">Sửa Banner</a>
 					</div>
 				</div>
 			</li>
@@ -121,12 +121,12 @@
 			<li class="nav-item">
 				<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
 					<i class="fas fa-fw fa-wrench"></i>
-					<span>Brand</span>
+					<span>Nhãn hàng</span>
 				</a>
 				<div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
 					<div class="bg-white py-2 collapse-inner rounded">
 						<h6 class="collapse-header">Brand: </h6>
-						<a class="collapse-item" href="@Url.Action("Index","Brands")">All Brand</a>
+						<a class="collapse-item" href="@Url.Action("Index","Brands")">Tất cả nhãn hàng</a>
 					</div>
 				</div>
 			</li>
@@ -141,7 +141,7 @@
 				<div id="rr1" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
 					<div class="bg-white py-2 collapse-inner rounded">
 						<h6 class="collapse-header">Custom Trademark:</h6>
-						<a class="collapse-item" href="@Url.Action("Index","Blogs")">All Blog</a>
+						<a class="collapse-item" href="@Url.Action("Index","Blogs")">Tất cả Blog</a>
 				
 					</div>
 				</div>
@@ -151,14 +151,14 @@
 				<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#rr2" aria-expanded="true" aria-controls="rr2">
 					<i class="fas fa-shopping-cart fa-building"></i>
 					<span>
-						Oder
+						Đơn hàng
 					</span>
 				</a>
 				<div id="rr2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
 					<div class="bg-white py-2 collapse-inner rounded">
-						<h6 class="collapse-header">Order</h6>
-						<a class="collapse-item" href="@Url.Action("AllListOrder","Admin")">All Orders</a>
-						<a class="collapse-item" href="@Url.Action("ListOrder","Admin")">Orders Confirm</a>
+						<h6 class="collapse-header">Đơn hàng</h6>
+						<a class="collapse-item" href="@Url.Action("AllListOrder","Admin")">Tất cả đơn hàng</a>
+						<a class="collapse-item" href="@Url.Action("ListOrder","Admin")">Đơn hàng xác nhận</a>
 
 					</div>
 				</div>
@@ -169,20 +169,20 @@
 			<hr class="sidebar-divider">
 			<!-- Heading -->
 			<div class="sidebar-heading">
-				Addons
+				Thêm
 			</div>
 			<!-- Nav Item - Pages Collapse Menu -->
 			<li class="nav-item">
 				<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
 					<i class="fas fa-fw fa-user"></i>
-					<span>Account</span>
+					<span>Tài khoản</span>
 				</a>
 				<div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
 					<div class="bg-white py-2 collapse-inner rounded">
-						<h6 class="collapse-header">Account</h6>
-						<a class="collapse-item" href="@Url.Action("Index","Customers")">Infomation Customer</a>
-						<a class="collapse-item" href="@Url.Action("Create","Customers")">Register Customer</a>
-						<a class="collapse-item" href="@Url.Action("Create","Admin")">Register Account</a>
+						<h6 class="collapse-header">Tài khoản</h6>
+						<a class="collapse-item" href="@Url.Action("Index","Customers")">Thông tin khách hàng</a>
+						<a class="collapse-item" href="@Url.Action("Create","Customers")">Tạo khách hàng mới</a>
+						<a class="collapse-item" href="@Url.Action("Create","Admin")">Tạo admin mới</a>
 
 					</div>
 				</div>
@@ -226,7 +226,7 @@
 					<!-- Topbar Search -->
 					<form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
 						<div class="input-group">
-							<input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+							<input type="text" class="form-control bg-light border-0 small" placeholder="Tìm kiếm" aria-label="Search" aria-describedby="basic-addon2">
 							<div class="input-group-append">
 								<button class="btn btn-primary" type="button">
 									<i class="fas fa-search fa-sm"></i>
@@ -268,7 +268,7 @@
 							<!-- Dropdown - Alerts -->
 							<div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
 								<h6 class="dropdown-header">
-									Alerts Center
+									Trung tâm báo cáo
 								</h6>
 								<a class="dropdown-item d-flex align-items-center" href="#">
 									<div class="mr-3">
